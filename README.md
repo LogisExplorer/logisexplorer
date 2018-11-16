@@ -1,8 +1,5 @@
-![lgs Logo](https://lgscrypto.com/wp-content/uploads/2018/04/blocklgsexplorer.svg)
-
 lgs Explorer
-&middot;
-[![GitHub license](https://img.shields.io/github/license/lgs-crypto/lgs-explorer.svg)](https://github.com/lgs-crypto/lgs-explorer/blob/master/COPYING) [![Build Status](https://travis-ci.org/lgs-crypto/lgs-explorer.svg?branch=master)](https://travis-ci.org/lgs-crypto/lgs-explorer) [![Discord](https://img.shields.io/discord/374271866308919296.svg)](https://discord.me/lgscrypto) [![GitHub version](https://badge.fury.io/gh/lgs-crypto%2Flgs-explorer.svg)](https://badge.fury.io/gh/lgs-crypto%2Flgs-explorer)
+
 =====
 
 Simple cryptocurrency block explorer system.
@@ -20,16 +17,10 @@ https://yarnpkg.com/lang/en/docs/install/
 
 It is also required to have the lgs daemon running in the background. It is recommended to set this up before beginning to set up the explorer so that it syncs by the time you need it.
 
-Our geniuses here at lgsCorp™ have put together a script to do this for you. Just run
-
-`bash script/lgsd_setup.sh`
-
-This will install the latest lgs wallet and create a rpc username/password before starting the daemon.
-
 ## Install
 `git clone https://github.com/lgs-crypto/lgs-explorer.git` - copy repo to local folder.
 
-`cd blocklgs` - change into project directory.
+`cd logiscoinexplorer` - change into project directory.
 
 `yarn install` - install packages used by the system.
 
@@ -82,7 +73,3 @@ At this time only the client web interface needs to be built using webpack and t
 `yarn run test:client` - will run the client side tests.
 
 `yarn run test:server` - will test the rpc connection, database connection, and api endpoints.
-
-## To-Do
-- Write more tests
-- Cluster support for api

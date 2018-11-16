@@ -10,8 +10,8 @@ const config = {
     'timeout': '5s'
   },
   'coinMarketCap': {
-    'api': 'http://api.coinmarketcap.com/v1/ticker/',
-    'ticker': 'lgs'
+    'api': 'https://api.coinmarketcap.com/v2/ticker/?start=701&limit=100',
+    'ticker': 'LGS'
   },
   'db': {
     'host': '127.0.0.1',
@@ -25,7 +25,7 @@ const config = {
   },
   'rpc': {
     'host': '127.0.0.1',
-    'port': '48484',
+    'port': '48485',
     'user': 'lgsrpc',
     'pass': 'someverysafepassword',
     'timeout': 8000, // 8 seconds
